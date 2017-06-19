@@ -1,0 +1,61 @@
+;
+; KONICA MINOLTA 423SeriesPCL-8 Driver UNF-File for Win x64
+;
+; Copyright (C) 2003 KONICA MINOLTA, INC.
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%KM%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile.ntamd64=KOAYFJ__.CAT
+DriverVer=10/28/2013,1.4.0.0
+
+[DriverInfo]
+DriverName=KONICA MINOLTA 423SeriesPCL-8
+DriverCode=0804
+
+[Uninstall]
+DelReg=Environment_Reg
+DelFiles=KOAYF_COPY,PRINT_MONITOR
+
+[Environment_Reg]
+HKLM,"System\CurrentControlSet\Control\Print\Printers","StartOnBoot"
+HKCU,"SoftWare\KONICA MINOLTA\KONICA MINOLTA 423SeriesPCL-8"
+
+[KOAYF_COPY]
+KOAYFJ_B.DLL,,,1
+KOAYFJ_C.DLL,,,1
+KOAYFJ_D.DLL,,,1
+KOAYFJ_F.DLL,,,1
+KOAYFJ_G.DLL,,,1
+KOAYFJ_J.DLL,,,1
+KOAYFJ_M.DLL,,,1
+KOAYFJ_N.DLL,,,1
+KOAYFJ_O.DLL,,,1
+KOAYFJ_R.DLL,,,1
+KOAYFJ_S.DLL,,,1
+KOAYFJ_U.DLL,,,1
+KOAYFJ_W.DLL,,,1
+KOAYFJ_X.DLL,,,1
+KOAYFJ_C.KPD
+KOAYFJ_D.KPD
+KOAYFJ_M.KPD
+KOAYFJ__.KPD
+KOAYFJ__.CHM,,,1
+KOAYFJ__.UNF
+KOAYFJ_A.KMP
+KOAYFJ_B.KMP
+KOAYFJ_C.KMP
+
+[PRINT_MONITOR]
+KOAYFJ_L.DLL,,,1
+
+[DestinationDirs]
+DefaultDestDir=66000
+PRINT_MONITOR=66002
+
+[Strings]
+KM="KONICA MINOLTA"
+DiskName="KONICA MINOLTA 423Series Driver Disk"

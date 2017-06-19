@@ -1,0 +1,8 @@
+本驱动里的setup.exe只适用于USB连接方式连接，更多安装方法详见：http://www.dyjqd.com/article/8959.html
+
+
+网络连接请参考这里：
+http://www.dyjqd.com/articie/4772.html#net
+
+
+驱动安装后可能需要重新启动电脑，如不能打印请检查打印机与电脑的连接及打印机的端口号，有问题可以点击下载地址下方的错误报告，通过错误报告页的在线QQ联系我们。
